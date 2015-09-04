@@ -13,13 +13,16 @@
  *= require_tree .
  *= require_self
  */
+ @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
  $body-bg: #1abc9c;
- $navbar-inverse-bg: #34495e;
+ $navbar-inverse-bg: rgba(44, 62, 80,0.7);
  $navbar-inverse-link-color: white;
  $brand-primary: #f39c12;
  $jumbotron-bg: rgba(0,0,0,0.5);
  $jumbotron-color: #fff;
+ $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
  
  @import "bootstrap-sprockets";
  @import 'bootstrap';
