@@ -7,7 +7,10 @@
     </div>
     
     <div class="panel-body">
-      <%= @pin.description %>
+      <%= image_tag @pin.image.url(:medium) %>
+      <br />
+      <br />
+      Description: <strong><%= @pin.description %></strong>
     </div>
   </p>
 
